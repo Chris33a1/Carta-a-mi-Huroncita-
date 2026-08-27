@@ -1,0 +1,69 @@
+/* Estilo general inspirado en tus proyectos anteriores */
+body {
+    background-color: #F5F5DC; /* Un tono beige/crema muy bonito */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #d35400; /* Un tono naranja/rojizo oscuro */
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estilo para las imágenes */
+img {
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px; /* Bordes suaves para la foto */
+    border: 3px solid #d35400;
+    display: block;
+}
+
+/* Contenedor para darle forma de tarjeta o carta */
+.carta, .contenedor {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Agrega una pequeña sombra */
+}
+
+/* El cuadro de texto para la contraseña */
+input {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Tus botones clásicos mejorados */
+.button {
+    background-color: #ffc46e; /* El color de tu primera página */
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: #e6b063; /* Cambia un poco al pasar el mouse */
+}

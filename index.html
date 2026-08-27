@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Tengo una sorpresa para ti 💙</h1>
+        <p>¿Cuál es la fecha desde la que somos novios?</p>
+        
+        <input type="text" id="password" placeholder="DD/MM/AAAA">
+        <button class="button" onclick="verificarPassword()">Entrar</button>
+    </div>
+
+    <script>
+        function verificarPassword() {
+            var contra = document.getElementById("password").value;
+            if (contra === "26/05/2026") {
+                window.location.href = "carta.html"; 
+            } else {
+                alert("Esa no es la fecha correcta, intenta de nuevo.");
+            }
+        }
+    </script>
+</body>
+</html>
